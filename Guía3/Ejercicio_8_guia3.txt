@@ -1,0 +1,6 @@
+Del archivo global seismicity feb27-apr19 2010.txt, elimine todas las comas
+y las reemplace por un espacio en blanco (Sugerencia: sed).
+
+PONER EN CONSOLA:
+
+more global_seismicity_feb27_apr19_2012.txt | sed 's/,/ /g'

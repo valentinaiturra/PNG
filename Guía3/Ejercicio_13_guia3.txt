@@ -1,0 +1,5 @@
+. Del archivo todos.txt cambie los % por #. (Sugerencia: more,sed)
+
+PONER EN CONSOLA:
+
+more todos.txt | sed 's/%/#/g'

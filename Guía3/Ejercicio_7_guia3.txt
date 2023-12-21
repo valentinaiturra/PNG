@@ -1,0 +1,6 @@
+Ordene el contenido del archivo TempTIGO.txt seg´un los valores de la 3ra
+columna y gr´abelo en otro archivo. (Sugerencia: sort).
+
+PONER EN CONSOLA:
+
+more TempTIGO.txt | sort -k3 -n > temptigo_ordenado.txt

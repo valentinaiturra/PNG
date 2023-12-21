@@ -1,0 +1,9 @@
+Reordene la informaci´on del archivo global seismicity feb27-apr19 2010.txt
+y la escriba en otro archivo seg´un el orden de la primera columna, y despu´es
+en funci´on de la sexta columna (Sugerencia: sort).
+
+
+more global_seismicity_feb27_apr19_2012.txt | sort -k1 > primera_columna_ordenada.txt
+
+
+more global_seismicity_feb27_apr19_2012.txt | sort -k6 -n > sexta_columna_ordenada.txt
